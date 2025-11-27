@@ -7,6 +7,6 @@ export class AppController {
 
   @Get()
   getHello() {
-    return { name: 'matheus', app_service_name: process.env.APP_SERVICE_NAME };
+    return { name: 'matheus teste', app_service_name: process.env.APP_SERVICE_NAME };
   }
 }
